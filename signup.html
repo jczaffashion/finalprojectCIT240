@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="modal.css" />
+  </head>
+  <body style="background-color: rgb(169, 192, 234)">
+    <div class="text-center">
+      <h1 style="color: rgb(18, 23, 71)">WELCOME TO THIS PAGE</h1>
+      <button
+        type="button"
+        class="btn btn-dark"
+        data-bs-toggle="modal"
+        data-bs-target="#ModalForm"
+      >
+        Register Now
+      </button>
+    </div>
+    <div
+      class="modal fade"
+      id="ModalForm"
+      tabindex="-1"
+      aria-labelledby="ModalFormLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="myform bg-dark">
+              <h1 class="text-center">Sign Up Form</h1>
+              <form action="index.html">
+                <div class="mb-3 mt-4">
+                  <label for="exampleInputName" class="form-label">Name</label>
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleInputName"
+                  />
+                </div>
+                <div class="mb-3 mt-4">
+                  <label for="exampleInputUname" class="form-label"
+                    >Username/Email Address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputUname"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <button type="submit" class="btn btn-light mt-3">
+                  SIGN UP
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap.js"></script>
+  </body>
+</html>

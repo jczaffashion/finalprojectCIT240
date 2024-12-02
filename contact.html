@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="n.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <div class="p-3 rounded-3">
+          <img
+            src="logo1.png"
+            height="90px"
+            width="160px"
+            alt="descriptive text about image"
+          />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-4">
+            <li class="nav-item"></li>
+            <a class="nav-link" href="index.html"
+              >HOME</a
+            ></li>
+            <li class="nav-item">
+            <a class="nav-link">ABOUT US</a></li>
+            <li class="nav-item">
+            <a class="nav-link" href="skills.html">COLLECTIONS</a></li>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html" href="contact.html">CONTACT US</a></li>
+          </ul>
+
+          <div class="wrapper ms-auto">
+            <div class="icon facebook">
+               <div class="tooltip">
+                  Facebook
+               </div>
+               <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+            <div class="icon twitter">
+               <div class="tooltip">
+                  Twitter
+               </div>
+               <span><i class="fab fa-twitter"></i></span>
+            </div>
+            <div class="icon instagram">
+               <div class="tooltip">
+                  Instagram
+               </div>
+               <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon youtube">
+               <div class="tooltip">
+                  YouTube
+               </div>
+               <span><i class="fab fa-youtube"></i></span>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <form>
+          <h1>Contact US</h1>
+          <input type="text" id="firstName" placeholder="First Name" required>
+          <input type="text" id="lastName" placeholder="Last Name" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <input type="text" id="mobile" placeholder="Mobile" required>
+          <h4>Type Your Message Here...</h4>
+          <textarea required></textarea>
+          <input type="submit" value="Send" id="button">
+      </form>
+  </div>
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
